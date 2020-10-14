@@ -4,4 +4,4 @@ function teste() {
   };
 }
 
-teste()
+teste();
