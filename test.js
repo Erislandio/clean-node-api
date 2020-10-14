@@ -3,3 +3,5 @@ function teste() {
     a: 1,
   };
 }
+
+teste()
