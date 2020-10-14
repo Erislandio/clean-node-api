@@ -12,13 +12,13 @@
   },
   "lint-staged": {
     "*.js": [
-      "npx standard --fix",
+      "standard --fix",
       "git add"
     ]
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npx standard --fix"
     }
   },
   "keywords": [],
